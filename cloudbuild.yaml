@@ -18,4 +18,3 @@ steps:
   name: gcr.io/cloud-builders/gcloud
   # dir: functions
   args: ['functions', 'deploy', 'pokeapi', '--region=europe-west1', '--trigger-http']
-
